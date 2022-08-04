@@ -22,3 +22,4 @@ urlpatterns = [
     path('', TemplateView.as_view(template_name='index.html'), name='index'),
     path('blog/', include('blog.urls')), # 127.0.0.1:8000/blog/
 ]
+#hello
